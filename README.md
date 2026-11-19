@@ -145,10 +145,11 @@ the actual Supabase project before inviting users.
 routes, so refreshing a route such as `/applications` does not rely on a
 development server fallback.
 
-1. Put this project in a GitHub repository and push the branch you want to
-   deploy. This project folder currently has no Git repository or remote.
-2. In Vercel, select **Add New → Project**, import the repository, and keep the
-   project root as the root directory.
+1. The source repository is
+   [vaishnavi-1019/Launchpad](https://github.com/vaishnavi-1019/Launchpad).
+   Push the latest `main` branch after local changes are ready.
+2. In Vercel, select **Add New → Project**, import the GitHub repository, and
+   keep the project root as the root directory.
 3. Use the Vite defaults, or confirm:
    - Build command: `npm run build`
    - Output directory: `dist`
@@ -167,10 +168,9 @@ development server fallback.
    and the protected Supabase routes. Confirm the production browser console and
    network requests show no configuration or runtime errors.
 
-**Deployment has not been performed.** This workspace has no Git remote and no
-Vercel CLI/account binding, so there is no production URL to report. Do not
-present the project as deployed until the Vercel build and production checks
-above have succeeded.
+**Deployment has not been performed.** There is no Vercel project or production
+URL configured for this project yet. Do not present the project as deployed
+until the Vercel build and production checks above have succeeded.
 
 ## Production and demo-account guidance
 
